@@ -1,0 +1,37 @@
+{
+  "name": "google_mlkit_selfie_segmentation",
+  "version": "0.0.1",
+  "summary": "Flutter plugin to use Google's ML Kit Selfie Segmentation API to easily separate the background from users within a scene and focus on what matters.",
+  "description": "Flutter plugin to use Google's ML Kit Selfie Segmentation API to easily separate the background from users within a scene and focus on what matters.",
+  "homepage": "https://github.com/bharat-biradar/Google-Ml-Kit-plugin",
+  "license": {
+    "file": "../LICENSE"
+  },
+  "authors": "Multiple Authors",
+  "source": {
+    "path": "."
+  },
+  "source_files": "Classes/**/*",
+  "public_header_files": "Classes/**/*.h",
+  "dependencies": {
+    "Flutter": [
+
+    ],
+    "GoogleMLKit/SegmentationSelfie": [
+      "~> 2.6.0"
+    ],
+    "google_mlkit_commons": [
+
+    ]
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "static_framework": true,
+  "swift_versions": "5.0",
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES",
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "i386"
+  },
+  "swift_version": "5.0"
+}
